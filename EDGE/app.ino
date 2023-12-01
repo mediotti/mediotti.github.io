@@ -1,10 +1,6 @@
 #include <LiquidCrystal_I2C.h>
 #include <stdlib.h>
 
-const int RED_LED_PIN = 7;
-const int YELLOW_LED_PIN = 4;
-const int GREEN_LED_PIN = 2;
-const int LDR_PIN = A0;
 const int HUMIDITY_PIN = A3;
 const int TEMPERATURE_PIN = A2;
 const int BUZZER_PIN = 8;
@@ -39,18 +35,9 @@ char* doubleToString(double value) {
 
 void setup() {
   setupLCD();
-  pinMode(RED_LED_PIN, OUTPUT);
-  pinMode(YELLOW_LED_PIN, OUTPUT);
-  pinMode(GREEN_LED_PIN, OUTPUT);  
   pinMode(LDR_PIN, INPUT);
   pinMode(A3, INPUT);
   Serial.begin(9600);
-}
-
-void turnOffAllLeds() {
-  digitalWrite(RED_LED_PIN, LOW);
-  digitalWrite(YELLOW_LED_PIN, LOW);
-  digitalWrite(GREEN_LED_PIN, LOW);
 }
 
 void printLCD(char * message1, char * message2){
