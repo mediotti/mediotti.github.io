@@ -31,6 +31,8 @@ O protótipo foi construído no [Tinkercad](https://www.tinkercad.com), sendo as
 - Protoboard;
 - Buzzer.
 
+### [Vídeo](https://youtu.be/9DWTC4ijFAw)
+
 ## [Web (Frontend/Backend)](./WEB/)
 ### Motivação
 Esse protótipo busca ilustrar a interface pela qual o beneficiário será capaz de adquirir os remédios receitados por um médico credenciado.
