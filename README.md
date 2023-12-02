@@ -6,6 +6,7 @@ Esse repositório hospeda os entregáveis construídos durante o desenvolvimento
 - Jó Sales - RM 552679
 
 ## [Computational Thinking Using Python](./CTUP/app.py)
+### [Vídeo](https://youtu.be/6hNLZ9zq5mk)
 ### Motivação
 O programa busca emular o backend de um sistema de integração com diferentes e-commerces de farmácia, atuando como um centralizador de pacotes de medicamentos.
 
@@ -16,9 +17,9 @@ O programa se baseia em funcionalidades nativas do python e foi desenvolvido loc
 python: 3.11.XX
 ```
 
-### [Vídeo](https://youtu.be/6hNLZ9zq5mk)
-
 ## [Edge Computing & Computer Systems](./EDGE/app.ino) - [Tinkercad](https://www.tinkercad.com/things/eThFa3Cyae4-gs-edge-computing?sharecode=NRHrrOlEHD4VVzQI1l3-Zs-i_bJfx5Hhgk09tFRx3ug)
+### [Vídeo](https://youtu.be/9DWTC4ijFAw)
+
 ### Motivação
 Esse protótipo busca trazer uma aplicação prática de um sistema de monitoramento de temperatura de refrigeradores de remédios que necessitam de ambientes de armazenamento controlados.
 
@@ -30,8 +31,6 @@ O protótipo foi construído no [Tinkercad](https://www.tinkercad.com), sendo as
 - Sensor de Temperatura e Humidade;
 - Protoboard;
 - Buzzer.
-
-### [Vídeo](https://youtu.be/9DWTC4ijFAw)
 
 ## [Web (Frontend/Backend)](./WEB/)
 ### Motivação
